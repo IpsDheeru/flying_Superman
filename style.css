@@ -1,0 +1,18 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.main{height: 100vh; background: url(pic/air1.jpg);  position: relative;
+ animation: moveing 5s linear infinite;}
+
+@keyframes moveing{
+	from{ background-position: bottom; }
+	to { background-position:  top; }
+}
+
+.pic{height: 700px; width: 500px; position: absolute; position overflow-x: 25px;}
+
+.type{text-align: center; padding-top: 45vh; padding-left: 500px; text-transform: uppercase;
+font-size: 60px; font-weight: bold; text-shadow: rgba(300,345,789,0.5); color: red; }
+
+.types{text-align: center; padding-top: 45vh; padding-left: 850px; text-transform: uppercase;
+font-size: 30px; font-weight: bold; text-shadow: 10px; color: yellow; outline: none;
+ text-decoration: none; }
